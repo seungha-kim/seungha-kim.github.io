@@ -8,13 +8,19 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.1/css/foundation.min.css" />
     <style>
+        .sw-topbar {
+            height: 65px;
+        }
         .sw-topbar, .sw-topbar ul {
             background-color: white;
-            height: 40px;
+            /* height: 40px; */
         }
         .sw-menu-wrap {
             background-color: white;
             box-shadow: 0 2px 2px -2px rgba(0,0,0,.15);
+            border-top: 1px solid rgba(0,0,0,.05);
+            padding-top: 3px;
+            padding-bottom: 3px;
         }
         .sw-max-width {
             max-width: 1000px;
@@ -31,13 +37,24 @@
         .sw-sub-header {
             width: 423px;
         }
+        .sw-logo {
+            width: 30px;
+            height: 30px;
+            vertical-align: middle;
+        }
+        .sw-logo-type {
+            font-size: 1.2em;
+            vertical-align: middle;
+            margin-left: 5px;
+        }
     </style>
 </head>
 
 <body>
     <div id="sw-topbar" class="sw-topbar top-bar sw-max-width">
         <div class="top-bar-left">
-            <span>Medium</span>
+            <img src="./medium_logo1600.png" class="sw-logo">
+            <span class="sw-logo-type">Medium</span>
         </div>
         <div class="top-bar-right">
             <ul class="menu">
@@ -49,10 +66,16 @@
     <div data-sticky-container>
         <div class="sw-max-width sw-menu-wrap sticky" data-sticky data-margin-top="0" data-top-anchor="sw-topbar:bottom">
             <ul class="menu sw-max-width">
-                <li><a href="#">One</a></li>
-                <li><a href="#">Two</a></li>
-                <li><a href="#">Three</a></li>
-                <li><a href="#">Four</a></li>
+                <li><a href="#">Menu 1</a></li>
+                <li><a href="#">Menu 2</a></li>
+                <li><a href="#">Menu 3</a></li>
+                <li><a href="#">Menu 4</a></li>
+                <li><a href="#">Menu 5</a></li>
+                <li><a href="#">Menu 6</a></li>
+                <li><a href="#">Menu 7</a></li>
+                <li><a href="#">Menu 8</a></li>
+                <li><a href="#">Menu 9</a></li>
+                <li><a href="#">Menu 10</a></li>
             </ul>
         </div>
     </div>
