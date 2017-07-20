@@ -1,0 +1,45 @@
+.sw-max-width {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sw-bg-grey {
+  background-color: grey;
+}
+
+.sw-hero {
+  padding: 20px;
+  background-color: skyblue;
+}
+
+.sw-width-45 {
+  width: 45%;
+}
+
+.sw-hero h1 {
+  margin-bottom: 20px;
+}
+
+.sw-section-title {
+  margin-top: 50px;
+}
+
+.sw-border-bottom {
+  border-bottom: 1px solid silver;
+}
+
+.sw-section-title-border {
+  border-bottom: 1px solid black;
+  margin-bottom: -1px;
+}
+
+.sw-card {
+  border: 1px solid silver;
+  margin-top: 20px;
+}
+
+.sw-card-left {
+  height: 200px;
+  background-color: blue;
+}
